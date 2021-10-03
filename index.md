@@ -53,3 +53,9 @@ We perform ablation study to analyze the contributions of each design in our mod
 <!-- <img src="https://user-images.githubusercontent.com/11616733/135757633-cf6dbb24-8e3e-4b88-a6f5-47585174b0b1.png" width="350"> -->
 <!-- ![ablation](https://user-images.githubusercontent.com/11616733/135760012-6fbf32dd-27b9-4196-a711-c16abfeea2a1.gif) -->
 <img src="https://user-images.githubusercontent.com/11616733/135760012-6fbf32dd-27b9-4196-a711-c16abfeea2a1.gif" width="500">
+
+### Reference
+1. EDSR: Enhanced Deep Residual Networks for Single Image Super-Resolution [[paper]](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.pdf)[[code]](https://github.com/sanghyun-son/EDSR-PyTorch)
+2. KernelGAN: Blind Super-Resolution Kernel Estimation using an Internal-GAN [[paper]](https://arxiv.org/pdf/1909.06581.pdf) [[code]](https://github.com/sefibk/KernelGAN)
+3. ZSSR: "Zero-Shot" Super-Resolution using Deep Internal Learning [[paper]](https://arxiv.org/pdf/1712.06087.pdf) [[code]](https://github.com/assafshocher/ZSSR)
+4. DualSR: DualSR: Zero-Shot Dual Learning for Real-World Super-Resolution [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Emad_DualSR_Zero-Shot_Dual_Learning_for_Real-World_Super-Resolution_WACV_2021_paper.pdf) [[code]](https://github.com/memad73/DualSR)
