@@ -1,5 +1,4 @@
 ## Find The Way Back
-authors: Ting-Wei Chang, Wei-Chen Chiu, Ching-Chun Huang
 
 ### Introduction
 We address the task of zero-shot blind image super-resolution and propose a flow-based generative model, named as invertible kernel estimator (IKE) which aims to recover the high-resolution details from the low-resolution input image under a challenging problem setting of having no external training data, no prior assumption on the downsampling kernel, and no pre-training components used for estimating the downsampling kernel.
