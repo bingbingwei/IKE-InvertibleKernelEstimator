@@ -9,10 +9,11 @@ IKENet approximates the image downsampling and upsampling processes simultaneous
 <iframe width="600" height="400" src="https://www.youtube.com/embed/r59-rO4IVmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 ### Experiments and Results
-#### DIV2k Track 2 (unknown degradation)
+#### DIV2k Track 2 Dataset (unknown degradation)
 The following table presents the super-resolved images on DIV2K dataset Track 2. The first two and the last two rows are the results of upsampling by 2 times and 4 times respectively.
-![image](https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png)
+![image](https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png){width=600}
 
-### Support or Contact
+#### Non-linear Degradation Dataset
+The following table presents the super-resolved images on the non-linear degradation dataset. The first to the fourth rows are the results against Median, Bilateral, Anistopic Diffusion and Random degradation kernels respectively.
+![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png){width=600}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
