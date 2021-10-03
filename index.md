@@ -31,12 +31,12 @@ The following table presents the super-resolved images on the non-linear degrada
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png" width="600">
 
-#### RealSR Dataset <sub><sup>[download link]
+#### RealSR Dataset
 [download link](https://github.com/csjcai/RealSR)
 
 RealSR is a dataset which consists of pairs of real-world HR and LR images and these paired images are captured with different focal lengths. The following table presents the super-resolved images on the RealSR dataset. 
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135754927-b00ded67-1dd4-4862-8c4c-94991a8ed87b.png) -->
-<!-- <img src="https://user-images.githubusercontent.com/11616733/135754927-b00ded67-1dd4-4862-8c4c-94991a8ed87b.png" width="600"> -->
+<img src="https://user-images.githubusercontent.com/11616733/135754927-b00ded67-1dd4-4862-8c4c-94991a8ed87b.png" width="600">
 
 #### Ablation Study
 We perform ablation study to analyze the contributions of each design in our model using DIV2k Track 2 dataset with scale factor x2, where the results are provided in the following table. Both the tri-channel coupling layers for the IKE backbone and the bicubic residual design help to generate better SR images. Moreover, the contributions of different objective functions are discussed. Among them, $L_{energy}$ solves the color shifting problem and brings significant impact to our model. In addition, $L_{CSR}^{bwd}$ and $L_{inter}$ also play important roles for the performance improvement.
