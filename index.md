@@ -16,7 +16,7 @@ The following table presents the super-resolved images on DIV2K dataset Track 2.
 
 #### Non-linear Degradation Dataset
 The following table presents the super-resolved images on the non-linear degradation dataset. The first to the fourth rows are the results against Median, Bilateral, Anistopic Diffusion and Random degradation kernels respectively.
-![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png)
+<!-- ![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png" width="600">
 
 
