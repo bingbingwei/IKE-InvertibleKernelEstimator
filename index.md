@@ -5,13 +5,14 @@ authors: Ting-Wei Chang, Wei-Chen Chiu, Ching-Chun Huang
 We address the task of zero-shot blind image super-resolution and propose a flow-based generative model, named as invertible kernel estimator (IKE) which aims to recover the high-resolution details from the low-resolution input image under a challenging problem setting of having no external training data, no prior assumption on the downsampling kernel, and no pre-training components used for estimating the downsampling kernel.
 
 ### Algorithm
-IKE approximates the image downsampling and upsampling processes simultaneously via a flow-based generative model. Thanks to the invertibility of IKE, the forward and backward flows are directly linked to the downsampling/kernel-estimating and upsampling/super-resolving steps. We provide the detailed algorithms of the forward and backward processes of the proposed IKENet with the following video.
+IKENet approximates the image downsampling and upsampling processes simultaneously via a flow-based generative model. Thanks to the invertibility of IKENet, the forward and backward flows are directly linked to the downsampling/kernel-estimating and upsampling/super-resolving steps. We provide the detailed algorithms of the forward and backward processes of the proposed IKENet with the following video.
 <div style="text-align:center;">
 <iframe width="600" height="400" src="https://www.youtube.com/embed/r59-rO4IVmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bingbingwei/IKE-InvertibleKernelEstimator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Experiments and Results
+#### DIV2k Track 2 (unknown degradation)
+The following table presents the super-resolved images on DIV2K dataset Track 2. The first two and the last two rows are the results of upsampling by 2 times and 4 times respectively.
+![image](https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png)
 
 ### Support or Contact
 
