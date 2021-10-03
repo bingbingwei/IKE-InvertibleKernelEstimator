@@ -19,7 +19,7 @@ IKENet approximates the image downsampling and upsampling processes simultaneous
 <iframe width="600" height="400" src="https://www.youtube.com/embed/gsZGBzgHGaY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 ### Experiments and Results
-#### DIV2k Track 2 Dataset (unknown degradation) <sub>[download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/)</sub>
+#### DIV2k Track 2 Dataset (unknown degradation) <sub><sup>[download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/)</sup></sub>
 <!-- [download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/) -->
 
 The following table presents the super-resolved images on DIV2K dataset Track 2. The first two and the last two rows are the results of upsampling by 2 times and 4 times respectively.
@@ -31,7 +31,7 @@ The following table presents the super-resolved images on the non-linear degrada
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png" width="600">
 
-#### RealSR Dataset <sub>[download link](https://github.com/csjcai/RealSR)</sub>
+#### RealSR Dataset <sub><sup>[download link](https://github.com/csjcai/RealSR)</sup></sub>
 <!-- [download link](https://github.com/csjcai/RealSR) -->
 
 RealSR is a dataset which consists of pairs of real-world HR and LR images and these paired images are captured with different focal lengths. The following table presents the super-resolved images on the RealSE dataset. 
