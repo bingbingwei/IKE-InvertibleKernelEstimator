@@ -1,3 +1,13 @@
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ## Find The Way Back
 
 ### Introduction
@@ -9,9 +19,8 @@ IKENet approximates the image downsampling and upsampling processes simultaneous
 <iframe width="600" height="400" src="https://www.youtube.com/embed/gsZGBzgHGaY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 ### Experiments and Results
-#### DIV2k Track 2 Dataset (unknown degradation)
+#### DIV2k Track 2 Dataset (unknown degradation) [download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 The following table presents the super-resolved images on DIV2K dataset Track 2. The first two and the last two rows are the results of upsampling by 2 times and 4 times respectively.
-[download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png" width="600">
 
@@ -20,9 +29,8 @@ The following table presents the super-resolved images on the non-linear degrada
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135753632-37837dd2-f4d1-4cb7-bc36-64b92e445d98.png" width="600">
 
-#### RealSR Dataset
+#### RealSR Dataset [download link](https://github.com/csjcai/RealSR)
 RealSR is a dataset which consists of pairs of real-world HR and LR images and these paired images are captured with different focal lengths. The following table presents the super-resolved images on the RealSE dataset. 
-[download link](https://github.com/csjcai/RealSR)
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135754927-b00ded67-1dd4-4862-8c4c-94991a8ed87b.png) -->
 <img src="https://user-images.githubusercontent.com/11616733/135754927-b00ded67-1dd4-4862-8c4c-94991a8ed87b.png" width="600">
 
