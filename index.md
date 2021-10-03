@@ -22,9 +22,9 @@ IKENet approximates the image downsampling and upsampling processes simultaneous
 #### DIV2k Track 2 Dataset (unknown degradation)
 [download link](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
-The following table presents the super-resolved images on DIV2K dataset Track 2. The first two and the last two rows are the results of upsampling by 2 times and 4 times respectively.
-<!-- ![image](https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png) -->
-<img src="https://user-images.githubusercontent.com/11616733/135750391-39cfeccc-527d-4f29-b6db-8fd5357e234a.png" width="600">
+The following table presents the super-resolved images on DIV2K dataset Track 2. The first four and the last four rows are the results of upsampling by 2 times and 4 times respectively.
+<!-- ![image](https://user-images.githubusercontent.com/11616733/135757355-ce736fd7-ba5d-40c3-a85a-a534fec3f603.png) -->
+<img src="https://user-images.githubusercontent.com/11616733/135757355-ce736fd7-ba5d-40c3-a85a-a534fec3f603.png" width="600">
 
 #### Non-linear Degradation Dataset
 The following table presents the super-resolved images on the non-linear degradation dataset. The first to the fourth rows are the results against Median, Bilateral, Anistopic Diffusion and Random degradation kernels respectively.
@@ -49,6 +49,7 @@ We perform ablation study to analyze the contributions of each design in our mod
 |      V       |      V      |    V    |                 |             | 25.003   | 0.6975  |
 |      V       |      V      |    V    |        V        |             | 25.122   | 0.7128  |
 |      V       |      V      |    V    |        V        |      V      | 25.476   | 0.7297  |
+
 
 
   
