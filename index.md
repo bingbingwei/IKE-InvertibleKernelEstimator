@@ -6,7 +6,7 @@ We address the task of zero-shot blind image super-resolution and propose a flow
 ### Algorithm
 IKENet approximates the image downsampling and upsampling processes simultaneously via a flow-based generative model. Thanks to the invertibility of IKENet, the forward and backward flows are directly linked to the downsampling/kernel-estimating and upsampling/super-resolving steps. We provide the detailed algorithms of the forward and backward processes of the proposed IKENet with the following video.
 <div style="text-align:center;">
-<iframe width="600" height="400" src="https://www.youtube.com/embed/r59-rO4IVmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/gsZGBzgHGaY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 ### Experiments and Results
 #### DIV2k Track 2 Dataset (unknown degradation)
