@@ -1,10 +1,10 @@
-## Introduction
+## Find The Way Back
 
-You can use the [editor on GitHub](https://github.com/bingbingwei/IKE-InvertibleKernelEstimator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- You can use the [editor on GitHub](https://github.com/bingbingwei/IKE-InvertibleKernelEstimator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+ -->
+### Introduction
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
