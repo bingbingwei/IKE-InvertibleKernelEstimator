@@ -41,7 +41,14 @@ RealSR is a dataset which consists of pairs of real-world HR and LR images and t
 #### Ablation Study
 We perform ablation study to analyze the contributions of each design in our model using DIV2k Track 2 dataset with scale factor x2, where the results are provided in the following table. Both the tri-channel coupling layers for the IKE backbone and the bicubic residual design help to generate better SR images. Moreover, the contributions of different objective functions are discussed. Among them, $L_{energy}$ solves the color shifting problem and brings significant impact to our model. In addition, $L_{CSR}^{bwd}$ and $L_{inter}$ also play important roles for the performance improvement.
 
-$L_{energy}$ | Tri-Channel | Bic Res | $L_{CSR}^{bwd}$ | $L_{inter}$ |   PSNR   |  SSIM 
-| :------------: | :-----------: | :-----------: | :-----------:| :-----------: | :-----------: | :-----------:
-|          |             |                  |                 |             | 9.375    | 0.1326 
-|    V      |             |                  |                 |             | 24.333    | 0.6412
+| $L_{energy}$ | Tri-Channel | Bic Res | $L_{CSR}^{bwd}$ | $L_{inter}$ |   PSNR   |  SSIM   |
+| :--------:   | :---------: | :-----: | :-------------: | :---------: | :------: | :-----: |
+|              |             |         |                 |             | 9.375    | 0.1326  |
+|      V       |             |         |                 |             | 24.333   | 0.6412  |
+|      V       |      V      |         |                 |             | 24.589   | 0.6613  |
+|      V       |      V      |    V    |                 |             | 25.003   | 0.6975  |
+|      V       |      V      |    V    |        V        |             | 25.122   | 0.7128  |
+|      V       |      V      |    V    |        V        |      V      | 25.476   | 0.7297  |
+
+
+  
