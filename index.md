@@ -6,7 +6,8 @@ We address the task of zero-shot blind image super-resolution and propose a flow
 
 ### Algorithm
 IKE approximates the image downsampling and upsampling processes simultaneously via a flow-based generative model. Thanks to the invertibility of IKE, the forward and backward flows are directly linked to the downsampling/kernel-estimating and upsampling/super-resolving steps. We provide the detailed algorithms of the forward and backward processes of the proposed IKENet with the following video.
-<iframe width="1120" height="730" src="https://www.youtube.com/embed/r59-rO4IVmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div style="text-align:center;">
+<iframe width="1120" height="730" src="https://www.youtube.com/embed/r59-rO4IVmQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 ### Jekyll Themes
 
