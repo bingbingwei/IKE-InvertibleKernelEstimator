@@ -51,8 +51,9 @@ We perform ablation study to analyze the contributions of each design in our mod
 |      V       |      V      |    V    |        V        |      V      | 25.476   | 0.7297  | -->
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135757633-cf6dbb24-8e3e-4b88-a6f5-47585174b0b1.png) -->
 <!-- <img src="https://user-images.githubusercontent.com/11616733/135757633-cf6dbb24-8e3e-4b88-a6f5-47585174b0b1.png" width="350"> -->
-<!-- ![ablation](https://user-images.githubusercontent.com/11616733/135760012-6fbf32dd-27b9-4196-a711-c16abfeea2a1.gif) -->
-<img src="https://user-images.githubusercontent.com/11616733/135760012-6fbf32dd-27b9-4196-a711-c16abfeea2a1.gif" width="500">
+<!-- ![ablation](https://user-images.githubusercontent.com/11616733/135836063-84ff10a6-bd73-41e3-a97c-165d1964db21.gif) -->
+<!-- <img src="https://user-images.githubusercontent.com/11616733/135836063-84ff10a6-bd73-41e3-a97c-165d1964db21.gif" width="600"> -->
+
 
 ### Reference
 1. EDSR: Enhanced Deep Residual Networks for Single Image Super-Resolution [[paper]](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.pdf)[[code]](https://github.com/sanghyun-son/EDSR-PyTorch)
