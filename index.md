@@ -52,7 +52,7 @@ We perform ablation study to analyze the contributions of each design in our mod
 <!-- ![image](https://user-images.githubusercontent.com/11616733/135757633-cf6dbb24-8e3e-4b88-a6f5-47585174b0b1.png) -->
 <!-- <img src="https://user-images.githubusercontent.com/11616733/135757633-cf6dbb24-8e3e-4b88-a6f5-47585174b0b1.png" width="350"> -->
 <!-- ![ablation](https://user-images.githubusercontent.com/11616733/135836063-84ff10a6-bd73-41e3-a97c-165d1964db21.gif) -->
-<!-- <img src="https://user-images.githubusercontent.com/11616733/135836063-84ff10a6-bd73-41e3-a97c-165d1964db21.gif" width="600"> -->
+<img src="https://user-images.githubusercontent.com/11616733/135836063-84ff10a6-bd73-41e3-a97c-165d1964db21.gif" width="600">
 
 
 ### Reference
